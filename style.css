@@ -1,0 +1,149 @@
+body{
+  align-items: center;
+  align-content: center;
+  height: 100vh;
+}
+
+
+
+@media only screen and (max-width: 767px){
+  .parent{
+    max-width: 500px;
+    padding: 25px;
+    background-color: black;
+    border-radius: 30px;
+    align-content: center;
+    justify-content: center;
+    align-self: center;
+    justify-self: center;
+  }
+  
+  .container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    overflow: hidden;
+    padding: 20px;
+    
+   
+  }
+  
+  .display{
+    width: 100%;
+    font-size: 5rem;
+    border:2px solid #191919;
+    background-color: black;
+    color: white;
+    text-align: right;
+  }
+  
+  
+  button {
+    
+    border-radius: 40px;
+    background-color: #323232;
+    color: white;
+    cursor: pointer;
+    border: 2px solid transparent;
+    height: 100px;
+    font-size: 2.5rem;
+  }
+  
+  button:hover{
+    background-color: #5a5858;
+    
+  }
+  
+  button:active{
+    background-color: #847f7f;
+  }
+  
+  .zero{
+    grid-column: span 2;
+  }
+  
+  .operator{
+    background-color: rgb(184, 121, 3);
+  }
+  
+  .operator:hover{
+    background-color: rgb(235, 157, 12);
+  }
+  
+  .operator:active{
+    background-color: rgb(255, 171, 14);
+  }
+  
+}
+
+@media only screen and (min-width: 768px){
+  .parent{
+    max-width: 600px;
+    padding: 25px;
+    background-color: black;
+    border-radius: 30px;
+    align-content: center;
+    justify-content: center;
+    align-self: center;
+    justify-self: center;
+    margin-top: 0;
+  }
+  
+  .container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    overflow: hidden;
+    padding: 20px;
+    
+   
+  }
+  
+  .display{
+    width: 100%;
+    font-size: 5rem;
+    border:2px solid #191919;
+    background-color: black;
+    color: white;
+    text-align: right;
+  }
+  
+  
+  button {
+    
+    border-radius: 40px;
+    background-color: #323232;
+    color: white;
+    cursor: pointer;
+    border: 2px solid transparent;
+    height: 100px;
+    font-size: 2.5rem;
+  }
+  
+  button:hover{
+    background-color: #5a5858;
+    
+  }
+  
+  button:active{
+    background-color: #847f7f;
+  }
+  
+  .zero{
+    grid-column: span 2;
+  }
+  
+  .operator{
+    background-color: rgb(184, 121, 3);
+  }
+  
+  .operator:hover{
+    background-color: rgb(235, 157, 12);
+  }
+  
+  .operator:active{
+    background-color: rgb(255, 171, 14);
+  }
+  
+}
+
